@@ -13,6 +13,7 @@ list_of_files = [
     f"src/{project_name}/utils/__init__.py",
     f"src/{project_name}/utils/common.py",
     f"src/{project_name}/config/__init__.py",
+        f"src/{project_name}/config/configuration.py",
     f"src/{project_name}/pipeline/__init__.py",
     f"src/{project_name}/entity/__init__.py",
     f"src/{project_name}/entity/config_entity.py",
@@ -27,7 +28,7 @@ list_of_files = [
     "setup.py",
     "research/trials.ipynb",
     "templates/index.html", # we will be using flask for routing
-    "test.py"
+    "pyproject.toml"
 ]
 
 
